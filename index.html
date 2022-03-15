@@ -45,10 +45,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1295891210888157&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-    <!-- Outbrain Pixel Code -->
-    <script>
-        obApi('track', 'FFMPageView');
-      </script>
+
     <!-- Taboola Pixel Code -->
 <script type='text/javascript'>
   window._tfa = window._tfa || [];
@@ -92,7 +89,10 @@ src="https://www.facebook.com/tr?id=1295891210888157&ev=PageView&noscript=1"
 
   obApi('track', 'PAGE_VIEW');
 </script>
-
+    <!-- Outbrain Pixel Code -->
+<script>
+  obApi('track', 'FFMPageView');
+</script>
 <script>
    fbq('track', 'ViewContent');
 </script>
@@ -145,6 +145,7 @@ src="https://www.facebook.com/tr?id=1295891210888157&ev=PageView&noscript=1"
 var reply_click = function()
 {
    fbq('track', 'InitiateCheckout');
+   obApi('track', 'FFMIC');
 }
 document.getElementById('cta1').onclick = reply_click;
 </script>
