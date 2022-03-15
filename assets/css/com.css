@@ -272,3 +272,20 @@ tr {
       font-style: italic;
       text-shadow: #000000 0px 1px 0px;
     }
+    .span-btn3 {
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      padding: 0; border: 0;
+      font: inherit; 
+      vertical-align: baseline; 
+      display: block; 
+      position: relative;
+      z-index: 1; 
+      margin: .2em 0 -.5em; 
+      font-size: 15px; 
+      color: #ffffff; 
+      font-family: Cabin; 
+      font-weight: normal; 
+      font-style: italic;
+      text-shadow: #000000 0px 1px 0px;
+    }
